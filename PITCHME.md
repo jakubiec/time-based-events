@@ -32,8 +32,6 @@
 ![](assets/diagrams/time_based_events.png)
 
 ---
-
-?image=assets/img/me.jpg&position=right&size=42% 65% @title[Konrad Jakubiec]
 @snap[north-west bio-name] 
 ### Konrad Jakubiec
 @snapend
