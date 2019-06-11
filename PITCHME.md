@@ -36,11 +36,11 @@
 ### Konrad Jakubiec
 @snapend
 
-@snap[west text-08 span-100] 
-Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems
+@snap[west text-08 span-60] 
+Open-minded Software Engineer **@VirtusLab**.\
 
 
-Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
+Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.\
 
 
 Spending free time on self-growth, discovering new music and playing on drums.
