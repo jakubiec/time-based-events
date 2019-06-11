@@ -31,11 +31,10 @@
 
 ![](assets/diagrams/time_based_events.png)
 
----
-
++++
 @snap[west span-40 text-center]
 ### Konrad Jakubiec 
-
+@snapend
 
 Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems. 
 
