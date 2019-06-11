@@ -36,6 +36,7 @@
 ### Konrad Jakubiec
 @snapend
 
+@snap[west] 
 Open-minded Software Engineer **@VirtusLab**.
 
 
@@ -43,6 +44,7 @@ Passionate about Domain-driven Design, Reactive Microservices and Event-driven a
 
 
 Spending free time on self-growth, discovering new music and playing on drums.
+@snapend
 
 @snap[north-east span-40 text-08]
 ![](assets/img/me.jpg)
