@@ -38,11 +38,11 @@
 
 @snap[west text-08 span-60] 
 Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems
-@snapend
-@snap[west text-08 span-60] 
+
+
 Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
-@snapend
-@snap[west text-08 span-60] 
+
+
 Spending free time on self-growth, discovering new music and playing on drums.
 @snapend
 
