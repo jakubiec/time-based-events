@@ -1,4 +1,6 @@
-# Let's Get Started
+# Time-based events
+
+## On Kafka
 
 ---
 
