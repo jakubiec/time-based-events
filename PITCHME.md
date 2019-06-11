@@ -9,7 +9,6 @@
 
 ![](assets/diagrams/domain-events.png)
 
-
 ---
 @snap[north span-100 headline]
 ## Aggregate events
@@ -26,7 +25,14 @@
 
 
 ---
+@snap[north span-100 headline]
+## Time-based events
+@snapend
 
+![](assets/diagrams/time-based-events.png)
+
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]

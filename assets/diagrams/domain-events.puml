@@ -7,7 +7,7 @@ skinparam handwritten true
 skinparam backgroundcolor transparent
 
 
-scale 1200*4800
+scale 1200*480
 
 
 file EmployeeJoined
