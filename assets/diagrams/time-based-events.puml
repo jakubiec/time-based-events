@@ -12,8 +12,14 @@ skinparam defaultTextAlignment center
 
 scale 1200*480
 
-FA5_CLOCK(clock,EligibilityExpired,file)
-FA5_CALENDAR_ALT(calendar_alt,FinancialYearEnded,file)
+file EligibilityExpired [
+    <size:80><&clock></size>
+    EligibilityExpired
+]
 
+file FinancialYearFinished [
+    <size:80><&calendar></size>
+    FinancialYearFinished
+]
 
 @enduml
