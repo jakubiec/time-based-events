@@ -32,19 +32,24 @@
 ![](assets/diagrams/time_based_events.png)
 
 ---
-+++?image=assets/img/me.jpg&position=right&size=42% 65% @title[Konrad Jakubiec]
+
+?image=assets/img/me.jpg&position=right&size=42% 65% @title[Konrad Jakubiec]
 @snap[north-west bio-name] 
 ### Konrad Jakubiec
 @snapend
 
 @snap[west text-08 span-60] 
-
 Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems
-
+@snapend
+@snap[west text-08 span-60] 
 Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
-
+@snapend
+@snap[west text-08 span-60] 
 Spending free time on self-growth, discovering new music and playing on drums.
+@snapend
 
+@snap[north-east span-40 text-08]
+![](assets/img/me.JPG)
 @snapend
 
 @snap[south-west template-note text-gray] 
