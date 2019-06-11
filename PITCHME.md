@@ -33,22 +33,19 @@
 
 ---
 
----?color=linear-gradient(90deg, white 50%, black 50%)
-@snap[north-west bio-name] 
-Konrad Jakubiec 
-@snapend
+@snap[west span-40 text-center]
+### Konrad Jakubiec 
 
-@snap[west text-08 span-60] 
+
 Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems. 
 
 Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
 
 Spending free time on self-growth, discovering new music and playing on drums.
 
-@snapend
 
 @snap[south-west template-note text-gray] 
-kjakubiec@virtuslab.com
+<kjakubiec@virtuslab.com>
 @snapend
 
 @snap[north-east span-40 text-08]
