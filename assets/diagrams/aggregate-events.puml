@@ -17,6 +17,6 @@ rectangle Aggregate #RosyBrown [
 file EmployeePromoted
 
 
-Aggregate --> EmployeePromoted
+Aggregate -r-> EmployeePromoted
 
 @enduml

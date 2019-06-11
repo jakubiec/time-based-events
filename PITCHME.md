@@ -15,14 +15,14 @@
 ## Aggregate events
 @snapend
 
-![](assets/diagrams/aggregate-events.png&size=contain)
+![](assets/diagrams/aggregate-events.png)
 
 ---
 @snap[north span-100 headline]
 ## Subscribers
 @snapend
 
-![](assets/diagrams/subscribers.png&size=contain)
+![](assets/diagrams/subscribers.png)
 
 
 ---
