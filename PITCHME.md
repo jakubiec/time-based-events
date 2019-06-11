@@ -32,9 +32,9 @@
 ![](assets/diagrams/time_based_events.png)
 
 ---
-+++?image=template/img/lovelace.jpg&position=right&size=42% 65% @title[Personal Biography]
-
-@snap[north-west bio-name] Ada Lovelace @snapend
+@snap[north-west bio-name] 
+Konrad Jakubiec
+@snapend
 
 @snap[west text-08 span-60] A gifted mathematician. Born 1815.
 
