@@ -31,33 +31,19 @@
 
 ![](assets/diagrams/time_based_events.png)
 
-+++
-@snap[west span-40 text-center]
-### Konrad Jakubiec 
-@snapend
++++?image=template/img/lovelace.jpg&position=right&size=42% 65% @title[Personal Biography]
 
-Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems. 
+@snap[north-west bio-name] Ada Lovelace @snapend
 
-Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
+@snap[west text-08 span-60] A gifted mathematician. Born 1815.
 
-Spending free time on self-growth, discovering new music and playing on drums.
+Inspired by Babbage’s Analytical Engine she imagined the modern-day, general-purpose computer back in 1843.
+
+Ada is now recognized as the first computer programmer. @snapend
+
+@snap[south-west template-note text-gray] Simple biography template. @snapend
 
 
-@snap[south-west template-note text-gray] 
-<kjakubiec@virtuslab.com>
-@snapend
-
-@snap[north-east span-40 text-08]
-@box[bg-green](Step 1. Schema # Define types using SDL)
-@snapend
-
-@snap[east span-40 text-08]
-@box[bg-blue](Step 2. Query # Fetch data with Queries)
-@snapend
-
-@snap[south-east span-40 text-08]
-@box[bg-gold](Step 3. Mutate # Modify data with Mutations)
-@snapend
 
 ---
 @title[Customize Slide Layout]
