@@ -1,22 +1,19 @@
 @startuml
 !include <tupadr3/common>
 !include <tupadr3/font-awesome-5/clock>
+!include <tupadr3/font-awesome-5/calendar_alt>
 
 skinparam defaultFontName Purisa
 skinparam handwritten true
 skinparam backgroundcolor transparent
 
+skinparam defaultTextAlignment center
+
 
 scale 1200*480
 
-rectangle Aggregate #RosyBrown [
-    <i><<aggregate>></i>
-    ---
-    <b>Employee</b>
-]
-file EmployeePromoted
+FA5_CLOCK(clock,EligibilityExpired,file)
+FA5_CALENDAR_ALT(calendar_alt,FinancialYearEnded,file)
 
-
-Aggregate -r-> EmployeePromoted
 
 @enduml

@@ -7,14 +7,14 @@
 ## Domain events
 @snapend
 
-![](assets/diagrams/domain-events.png)
+![](assets/diagrams/domain_events.png)
 
 ---
 @snap[north span-100 headline]
 ## Aggregate events
 @snapend
 
-![](assets/diagrams/aggregate-events.png)
+![](assets/diagrams/aggregate_events.png)
 
 ---
 @snap[north span-100 headline]
@@ -29,7 +29,7 @@
 ## Time-based events
 @snapend
 
-![](assets/diagrams/time-based-events.png)
+![](assets/diagrams/time_based_events.png)
 
 
 ---
