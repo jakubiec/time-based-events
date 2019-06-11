@@ -4,11 +4,25 @@
 
 ---
 
-## Add Some Slide Candy
+## Domain events
 
-![](assets/img/presentation.png)
+![](assets/diagrams/domain-events.png)
+
 
 ---
+## Aggregate events
+
+![](assets/diagrams/aggregate-events.png)
+
+---
+
+## Subscribers
+
+![](assets/diagrams/subscribers.png)
+
+
+---
+
 @title[Customize Slide Layout]
 
 @snap[west span-50]
