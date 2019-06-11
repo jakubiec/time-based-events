@@ -47,7 +47,7 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @snapend
 
 @snap[north-east span-40 text-08]
-![](assets/img/me.JPG)
+![](assets/img/me.jpg)
 @snapend
 
 @snap[south-west template-note text-gray] 
