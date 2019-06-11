@@ -3,22 +3,26 @@
 ## On Kafka
 
 ---
-
+@snap[north span-100 headline]
 ## Domain events
+@snapend
 
 ![](assets/diagrams/domain-events.png)
 
 
 ---
+@snap[north span-100 headline]
 ## Aggregate events
+@snapend
 
-![](assets/diagrams/aggregate-events.png)
+![](assets/diagrams/aggregate-events.png$size=contain)
 
 ---
-
+@snap[north span-100 headline]
 ## Subscribers
+@snapend
 
-![](assets/diagrams/subscribers.png)
+![](assets/diagrams/subscribers.png$size=contain)
 
 
 ---
