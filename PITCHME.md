@@ -31,6 +31,7 @@
 
 ![](assets/diagrams/time_based_events.png)
 
+---
 +++?image=template/img/lovelace.jpg&position=right&size=42% 65% @title[Personal Biography]
 
 @snap[north-west bio-name] Ada Lovelace @snapend
