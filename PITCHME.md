@@ -32,18 +32,24 @@
 ![](assets/diagrams/time_based_events.png)
 
 ---
++++?image=assets/img/me.jpg&position=right&size=42% 65% @title[Konrad Jakubiec]
 @snap[north-west bio-name] 
-Konrad Jakubiec
+### Konrad Jakubiec
 @snapend
 
-@snap[west text-08 span-60] A gifted mathematician. Born 1815.
+@snap[west text-08 span-60] 
 
-Inspired by Babbage’s Analytical Engine she imagined the modern-day, general-purpose computer back in 1843.
+Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems
 
-Ada is now recognized as the first computer programmer. @snapend
+Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
 
-@snap[south-west template-note text-gray] Simple biography template. @snapend
+Spending free time on self-growth, discovering new music and playing on drums.
 
+@snapend
+
+@snap[south-west template-note text-gray] 
+<kjakubiec@virtuslab.com>
+@snapend
 
 
 ---
