@@ -32,10 +32,23 @@
 ![](assets/diagrams/time_based_events.png)
 
 ---
-### GraphQL
-@fa[quote-left quote-graphql](A query language for your API)
-![GRAPHQL](assets/img/graphql.png)
 
+---?color=linear-gradient(90deg, white 50%, black 50%)
+@snap[north-west bio-name] 
+Konrad Jakubiec 
+@snapend
+
+@snap[west text-08 span-60] 
+Open-minded Software Engineer **@VirtusLab** specializing in designing and building well crafted distributed systems. 
+
+Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.
+
+Spending free time on self-growth, discovering new music and playing on drums.
+
+@snapend
+
+@snap[south-west template-note text-gray] 
+kjakubiec@virtuslab.com
 @snapend
 
 @snap[north-east span-40 text-08]
