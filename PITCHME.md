@@ -62,7 +62,10 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @snap[south-west template-note text-gray] 
 <kjakubiec@virtuslab.com>
 @snapend
+
+@snap[south template-note] 
 [Codebase](https://github.com/jakubiec/time-based-events)
+@snapend
 
 ---
 @snap[north span-100 headline]
