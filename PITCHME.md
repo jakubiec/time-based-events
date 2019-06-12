@@ -141,6 +141,7 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ![](assets/diagrams/time_based_events_context.png)
 
 ---
+@snap[north span-100 headline]
 ### Concern - mindset
 @snapend
 
