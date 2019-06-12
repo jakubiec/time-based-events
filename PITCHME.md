@@ -346,5 +346,3 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 @snapend
 
 ## Questions ????
-
----
