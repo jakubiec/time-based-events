@@ -17,10 +17,10 @@ EmployeeJoined
 ....
 joiningDate
 ]
-storage ColleagueContext #YellowGreen
+storage EmployeesContext #YellowGreen
 storage BenefitsContext #LightGreen
 
-ColleagueContext -> EmployeeJoined
+EmployeesContext -> EmployeeJoined
 EmployeeJoined <-r- BenefitsContext
 
 @enduml

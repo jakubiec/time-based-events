@@ -13,7 +13,7 @@ skinparam defaultTextAlignment center
 
 scale 1200*480
 
-rectangle "<$server>\ncolleagues-service" as colleagues #YellowGreen
+rectangle "<$server>\nemployees-service" as colleagues #YellowGreen
 queue "<$kafka>\nKafka" as kafka
 rectangle "<$server>\nbenefits-service" as benefits #LightGreen
 

@@ -119,6 +119,27 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 ![](assets/diagrams/colleague_benefits_kafka.png)
 
 ---
+@snap[north span-100 headline]
+### Kafka Streams Topology
+@snapend
+
+![](assets/img/kafka-topology.png)
+
+---
+@snap[north span-100 headline]
+### Kafka Streams DSL
+@snapend
+
+```
+KTable<EmployeeId, Employee> employee = new KStreamBuilder()
+    .stream("employee-events")
+    .mapValues(Employee::applyEvent)
+    .groupBy((employeeId, event) -> event.employeeId(), ...)
+    .aggregate(..., "employee_store");
+
+```
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
