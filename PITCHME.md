@@ -17,16 +17,18 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 
 ---
 @snap[north span-100 headline]
-### Concern?
+### Concern - mindset
 @snapend
 
 How to schedule an event?
 
 Aren't events about the past?
 
+![](assets/diagrams/discount_became_effective.png)
+
 ---
 @snap[north span-100 headline]
-### Concern?
+### Concern - architecture
 @snapend
 
 ![](assets/diagrams/colleague_benefits_kafka.png)
@@ -101,6 +103,13 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 ---
 @snap[north span-100 headline]
+### Retroactive event
+@snapend
+
+![](assets/diagrams/retroactive_event.png)
+
+---
+@snap[north span-100 headline]
 ### A niche
 @snapend
 
@@ -112,30 +121,6 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @snapend
 @fa[quote-left](Therefore, you have a name for that particular time-based Domain Event.)
 
-+++
-@snap[north span-100 headline]
-### A niche
-@snapend
-@fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
-
-
----
-@snap[north span-100 headline]
-### Retroactive event
-@snapend
-
-![](assets/diagrams/retroactive_event.png)
-
----
-@snap[north span-100 headline]
-### 1. Concern - mindset
-@snapend
-
-How to schedule an event?
-
-Aren't events about the past?
-
-![](assets/diagrams/discount_became_effective.png)
 ---
 @snap[north span-100 headline]
 ### Time-based events
@@ -152,10 +137,24 @@ Aren't events about the past?
 
 ---
 @snap[north span-100 headline]
-### Time-based events - Context
+### Concern - mindset
+@snapend
+
+Aren't events about the past? What about aggregates?
+
+![](assets/diagrams/discount_became_effective.png)
+---
+@snap[north span-100 headline]
+### Time-based events - Aggregate
 @snapend
 
 ![](assets/diagrams/time_based_events_aggregate.png)
+
+---
+@snap[north span-100 headline]
+### A niche
+@snapend
+@fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
 
 ---
 ### 2. Concern - architecture
@@ -186,7 +185,7 @@ KTable<EmployeeId, Employee> employee = new KStreamBuilder()
 
 ---
 @snap[north span-100 headline]
-### 3. Concern - how to schedule?
+### 3. Concern - how to schedule on Kafka?
 @snapend
 
 ![](assets/diagrams/discount_became_effective.png)
