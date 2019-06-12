@@ -106,10 +106,10 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ![](assets/diagrams/colleagues_benefits.png)
 ---
 @snap[north span-100 headline]
-### Use case
+### 1.Use case - Schedule
 @snapend
 
-@fa[quote-left](On _joining_ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created)
+On _joiningDate_ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created.
 
 ---
 @title[Customize Slide Layout]
