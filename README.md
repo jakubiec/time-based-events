@@ -19,3 +19,4 @@ Moreover, events like **StudentBecameAnAdult** are purely aggregate specific but
 A codebase contains some proof of concept build with Kafka Streams as an implementation of mechanism for time-based events.
 
 
+## [Presentation](https://gitpitch.com/jakubiec/time-based-events#/)
