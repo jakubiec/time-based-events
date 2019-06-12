@@ -264,6 +264,26 @@ public interface Processor<K, V> {
 ```
 
 ---
+@snap[north span-100 headline]
+### The idea
+@snapend
+
+@ol
+
+- Use **StateStore** to store not effective events
+- Schedule **Punctuation** to poll for effective events from **StateStore**
+- Forward all effective events
+
+@olend
+
+---
+@snap[north span-100 headline]
+### Schedule topology
+@snapend
+
+![](assets/img/schedule-topology.png)
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]

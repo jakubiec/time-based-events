@@ -14,46 +14,19 @@ fun topology(scheduleInterval: Duration): Topology =
             Topology.AutoOffsetReset.EARLIEST, "TimeBasedEvents", Serdes.String().deserializer(),
             ScheduleCommandDeserializer, INPUT_TOPIC
         )
-        .addProcessor(
-            Scheduler.NAME,
-            ProcessorSupplier { Scheduler() },
-            "TimeBasedEvents"
-        )
-        .addProcessor(
-            Rescheduler.NAME,
-            ProcessorSupplier { Rescheduler() },
-            Scheduler.NAME
-        )
-        .addProcessor(
-            Canceller.NAME,
-            ProcessorSupplier { Canceller() },
-            Rescheduler.NAME
-        )
+
         .addProcessor(
             EffectiveEventsForwarder.NAME,
             ProcessorSupplier { EffectiveEventsForwarder(scheduleInterval) },
-            Canceller.NAME
-        )
-        .addProcessor(
-            Cleaner.NAME,
-            ProcessorSupplier { Cleaner() },
-            EffectiveEventsForwarder.NAME
+           "TimeBasedEvents"
         )
         .addStateStore(
             timeBasedEventStore(),
-            Scheduler.NAME,
-            Rescheduler.NAME,
-            Canceller.NAME,
-            EffectiveEventsForwarder.NAME,
-            Cleaner.NAME
+            EffectiveEventsForwarder.NAME
         )
         .addStateStore(
             effectiveDatesStore(),
-            Scheduler.NAME,
-            Rescheduler.NAME,
-            Canceller.NAME,
-            EffectiveEventsForwarder.NAME,
-            Cleaner.NAME
+            EffectiveEventsForwarder.NAME
         )
         .addSink(
             "EffectiveEvents",

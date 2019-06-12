@@ -11,8 +11,8 @@ import org.apache.kafka.streams.state.StoreBuilder
 import org.apache.kafka.streams.state.Stores
 
 
-const val TIME_BASED_EVENTS_STORE = "time-based-events"
-const val EFFECTIVE_DATES_STORE = "effective-dates"
+const val TIME_BASED_EVENTS_STORE = "time-based-events-store"
+const val EFFECTIVE_DATES_STORE = "effective-dates-store"
 
 fun timeBasedEventStore(): StoreBuilder<KeyValueStore<String, TimeBasedEvent>> =
     Stores.keyValueStoreBuilder(
