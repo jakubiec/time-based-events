@@ -73,13 +73,13 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @olend
 ---
 @snap[north span-100 headline]
-### Theoretical background
+### A niche
 @snapend
 
-@fa[](A query language for your API)
+@fa[quote-left](...expiring time frame will generally have a descriptive name that will become part of the Ubiquitous Language.... Therefore, you have a name for that particular time-based Domain Event.)
 
-@snap[south-east span-50] @quote[GitPitch Desktop with speaker notes is AMAZING!](Dave T.)
-@snapend
+@fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
+
 
 ---
 @title[Customize Slide Layout]
