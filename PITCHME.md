@@ -99,6 +99,19 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ![](assets/diagrams/retroactive_event.png)
 
 ---
+@snap[north span-100 headline]
+### Context
+@snapend
+
+![](assets/diagrams/colleagues_benefits.png)
+---
+@snap[north span-100 headline]
+### Use case
+@snapend
+
+@fa[quote-left](On _joining_ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created)
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
