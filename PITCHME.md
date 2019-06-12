@@ -347,9 +347,6 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 
 ## Questions ????
 ---
-@snap[north span-100 headline]
-### References
-@snapend
 
 @snap[south text-08 ]
 @ul
