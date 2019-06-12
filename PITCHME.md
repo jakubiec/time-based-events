@@ -59,6 +59,16 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 
 ---
+### Agenda
+
+@box[](Step 1. Schema # Define types using SDL)
+
+@box[](Step 1. Schema # Define types using SDL)
+
+@box[](Step 1. Schema # Define types using SDL)
+
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
