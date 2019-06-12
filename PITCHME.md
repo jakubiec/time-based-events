@@ -284,6 +284,20 @@ public interface Processor<K, V> {
 ![](assets/img/schedule-topology.png)
 
 ---
+@snap[north span-100 headline]
+### Does it work?
+@snapend
+
+Show me the code!
+
+---
+@snap[north span-100 headline]
+### Does it work?
+@snapend
+
+Show me the code!
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
