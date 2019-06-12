@@ -92,6 +92,13 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 
 ---
+@snap[north span-100 headline]
+### Retroactive event
+@snapend
+
+![](assets/diagrams/retroactive_event.png)
+
+---
 @title[Customize Slide Layout]
 
 @snap[west span-50]
