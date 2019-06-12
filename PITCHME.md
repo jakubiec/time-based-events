@@ -17,12 +17,6 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 
 ---
 @snap[north span-100 headline]
-### 1. Use case - Schedule
-@snapend
-
-![](assets/diagrams/colleague_benefits_kafka.png)
----
-@snap[north span-100 headline]
 ### Concern?
 @snapend
 
@@ -30,6 +24,12 @@ How to schedule an event?
 
 Aren't events about the past?
 
+---
+@snap[north span-100 headline]
+### 1. Use case - Schedule
+@snapend
+
+![](assets/diagrams/colleague_benefits_kafka.png)
 ---
 @snap[north-west bio-name] 
 ### Konrad Jakubiec
@@ -100,6 +100,7 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ### A niche
 
 ---
+@snap[north span-100 headline]
 ### A niche
 @snapend
 
@@ -141,6 +142,20 @@ Aren't events about the past?
 @snapend
 
 ![](assets/diagrams/time_based_events.png)
+
+---
+@snap[north span-100 headline]
+### Time-based events - Context
+@snapend
+
+![](assets/diagrams/time_based_events_context.png)
+
+---
+@snap[north span-100 headline]
+### Time-based events - Context
+@snapend
+
+![](assets/diagrams/time_based_events_aggregate.png)
 
 ---
 ### 2. Concern - architecture
