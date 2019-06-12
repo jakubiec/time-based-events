@@ -146,8 +146,6 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @snapend
 
 @snap[midpoint span-70]
-Aren't events about the past?   
-
 What about aggregates?
 @snapend
 
