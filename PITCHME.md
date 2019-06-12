@@ -351,6 +351,7 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 ### References
 @snapend
 
+@snap(south span-80]
 @ul
 
 - Domain-Driven Design Distilled by Vaughn Vernon
@@ -362,7 +363,7 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 - https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7
 - https://zz85.github.io/kafka-streams-viz/
 
-
 @ulend
+@snapend
 
 ## Questions ????
