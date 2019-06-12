@@ -21,8 +21,9 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 @snapend
 
 @snap[midpoint span-70]
-How to schedule an event?
-<\br>
+How to schedule an event?    
+
+
 Aren't events about the past?
 @snapend
 
