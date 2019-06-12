@@ -4,30 +4,31 @@
 
 ---
 @snap[north span-100 headline]
-## Domain events
+### Context
 @snapend
 
-![](assets/diagrams/domain_events.png)
+![](assets/diagrams/colleagues_benefits.png)
+---
+@snap[north span-100 headline]
+### 1. Use case - Schedule
+@snapend
+
+On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created.
 
 ---
 @snap[north span-100 headline]
-## Aggregate events
+### 1. Use case - Schedule
 @snapend
 
-![](assets/diagrams/aggregate_events.png)
-
+![](assets/diagrams/colleague_benefits_kafka.png)
 ---
 @snap[north span-100 headline]
-## Subscribers
+### Concern?
 @snapend
 
-![](assets/diagrams/subscribers.png)
+How to schedule an event?
 
-
----
-@snap[north span-100 headline]
-## Time-based events
-@snapend
+Aren't events about the past?
 
 ![](assets/diagrams/time_based_events.png)
 
@@ -73,6 +74,35 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @olend
 ---
 @snap[north span-100 headline]
+### Domain events
+@snapend
+
+![](assets/diagrams/domain_events.png)
+
+---
+@snap[north span-100 headline]
+### Aggregate events
+@snapend
+
+![](assets/diagrams/aggregate_events.png)
+
+---
+@snap[north span-100 headline]
+### Subscribers
+@snapend
+
+![](assets/diagrams/subscribers.png)
+
+
+---
+@snap[north span-100 headline]
+### Time-based events
+@snapend
+
+![](assets/diagrams/time_based_events.png)
+
+---
+@snap[north span-100 headline]
 ### A niche
 @snapend
 
@@ -98,32 +128,22 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 ![](assets/diagrams/retroactive_event.png)
 
----
-@snap[north span-100 headline]
-### Context
-@snapend
-
-![](assets/diagrams/colleagues_benefits.png)
----
-@snap[north span-100 headline]
-### 1. Use case - Schedule
-@snapend
-
-On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created.
 
 ---
-@snap[north span-100 headline]
-### 1. Use case - Schedule
+### Concern?
 @snapend
 
-![](assets/diagrams/colleague_benefits_kafka.png)
+How to schedule an event?
 
+Aren't events about the past?
+
+![](assets/diagrams/time_based_events.png)
 ---
 @snap[north span-100 headline]
 ### Kafka Streams Topology
 @snapend
 
-![](assets/img/kafka-topology.png)
+![](assets/img/kafka-topology.jpg)
 
 ---
 @snap[north span-100 headline]
@@ -133,10 +153,54 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 ```
 KTable<EmployeeId, Employee> employee = new KStreamBuilder()
     .stream("employee-events")
-    .mapValues(Employee::applyEvent)
     .groupBy((employeeId, event) -> event.employeeId(), ...)
     .aggregate(..., "employee_store");
 
+```
+
+---
+@snap[north span-100 headline]
+### Concern?
+@snapend
+
+How to schedule an event?
+
+Isn't events about the past?
+
+![](assets/img/kafka-topology.jpg)
+
+---
+@snap[north span-100 headline]
+### PAPI
+@snapend
+
+```
+class EffectiveEventsForwarder(private val scheduleDuration: Duration) : AbstractProcessor<String, ScheduleCommand>() {
+
+    private val logger = KotlinLogging.logger {}
+    private lateinit var stores: Stores
+
+
+    override fun init(context: ProcessorContext) {
+        super.init(context)
+        stores = Stores(context)
+        context.schedule(scheduleDuration, PunctuationType.WALL_CLOCK_TIME) { forwardEffectiveEvents() }
+    }
+
+    override fun process(key: String, command: ScheduleCommand) {}
+
+    private fun forwardEffectiveEvents() =
+        stores.onEffectiveEvents { iterator ->
+            iterator.forEach { keyValue ->
+                context().forward(keyValue.value.id, keyValue.value)
+                logger.info { "Forwarded event ${keyValue.value}" }
+            }
+        }
+
+    companion object {
+        const val NAME = "EffectiveEventsForwarder"
+    }
+}
 ```
 
 ---
