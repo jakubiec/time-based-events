@@ -17,7 +17,7 @@ EmployeeJoined
 ....
 joiningDate
 ]
-storage ColleagueContext #LightGreen
+storage ColleagueContext #YellowGreen
 storage BenefitsContext #LightGreen
 
 ColleagueContext -> EmployeeJoined

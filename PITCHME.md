@@ -106,10 +106,17 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ![](assets/diagrams/colleagues_benefits.png)
 ---
 @snap[north span-100 headline]
-### 1.Use case - Schedule
+### 1. Use case - Schedule
 @snapend
 
-On _joiningDate_ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created.
+On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountAccount** should be created.
+
+---
+@snap[north span-100 headline]
+### 1. Use case - Schedule
+@snapend
+
+![](assets/diagrams/colleague_benefits_kafka.png)
 
 ---
 @title[Customize Slide Layout]

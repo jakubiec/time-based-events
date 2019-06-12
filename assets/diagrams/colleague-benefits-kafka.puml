@@ -1,0 +1,25 @@
+@startuml
+!include <cloudinsight/server>
+!include <cloudinsight/kafka>
+!include <cloudinsight/java>
+
+
+skinparam defaultFontName Purisa
+skinparam handwritten true
+skinparam backgroundcolor transparent
+
+skinparam defaultTextAlignment center
+
+
+scale 1200*480
+
+rectangle "<$server>\ncolleagues-service" as colleagues #YellowGreen
+queue "<$kafka>\nKafka" as kafka
+rectangle "<$server>\nbenefits-service" as benefits #LightGreen
+
+
+colleagues -> kafka
+kafka -> benefits
+
+
+@enduml
