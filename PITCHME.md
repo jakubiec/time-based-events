@@ -20,9 +20,11 @@ On __joiningDate__ plus 6 months, **Discount** becomes effective and **DiscountA
 ### Concern - mindset
 @snapend
 
+@snap[midpoint span-50]
 How to schedule an event?
 
 Aren't events about the past?
+@snapend
 
 @snap[south span-50]
 ![](assets/diagrams/discount_became_effective.png)
