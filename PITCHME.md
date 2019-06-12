@@ -24,7 +24,9 @@ How to schedule an event?
 
 Aren't events about the past?
 
+@snap[south span-50]
 ![](assets/diagrams/discount_became_effective.png)
+@snapend
 
 ---
 @snap[north span-100 headline]
