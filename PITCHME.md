@@ -61,11 +61,13 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ---
 ### Agenda
 
-@box[](Step 1. Schema # Define types using SDL)
+@box[bg-green](Step 1. Theoretical background)
 
-@box[](Step 1. Schema # Define types using SDL)
+@box[bg-green](Step 2. Use case)
 
-@box[](Step 1. Schema # Define types using SDL)
+@box[bg-green](Step 3. Solution)
+
+@box[bg-green](Step 4. Summary)
 
 
 ---
