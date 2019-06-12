@@ -278,7 +278,7 @@ public interface Processor<K, V> {
 ### Schedule topology
 @snapend
 
-@snap[south span-90]
+@snap[south span-80]
 ![](assets/img/schedule-topology.png)
 @snapend
 ---

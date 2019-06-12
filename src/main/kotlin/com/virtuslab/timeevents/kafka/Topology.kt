@@ -20,19 +20,9 @@ fun topology(scheduleInterval: Duration): Topology =
             "TimeBasedEvents"
         )
         .addProcessor(
-            Rescheduler.NAME,
-            ProcessorSupplier { Rescheduler() },
-            Scheduler.NAME
-        )
-        .addProcessor(
-            Canceller.NAME,
-            ProcessorSupplier { Canceller() },
-            Rescheduler.NAME
-        )
-        .addProcessor(
             EffectiveEventsForwarder.NAME,
             ProcessorSupplier { EffectiveEventsForwarder(scheduleInterval) },
-            Canceller.NAME
+            Scheduler.NAME
         )
         .addProcessor(
             Cleaner.NAME,
@@ -42,16 +32,12 @@ fun topology(scheduleInterval: Duration): Topology =
         .addStateStore(
             timeBasedEventStore(),
             Scheduler.NAME,
-            Rescheduler.NAME,
-            Canceller.NAME,
             EffectiveEventsForwarder.NAME,
             Cleaner.NAME
         )
         .addStateStore(
             effectiveDatesStore(),
             Scheduler.NAME,
-            Rescheduler.NAME,
-            Canceller.NAME,
             EffectiveEventsForwarder.NAME,
             Cleaner.NAME
         )
