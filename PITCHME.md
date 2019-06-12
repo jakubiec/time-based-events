@@ -168,6 +168,7 @@ What about aggregates?
 @fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
 
 ---
+@snap[north span-100 headline]
 ### 2. Concern - architecture
 @snapend
 
@@ -179,7 +180,9 @@ What about aggregates?
 ### Kafka Streams Topology
 @snapend
 
+@snap[midpoint span-70]
 ![](assets/img/kafka-topology.jpg)
+@snapend
 
 ---
 @snap[north span-100 headline]
