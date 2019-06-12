@@ -351,7 +351,7 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 ### References
 @snapend
 
-@snap[south span-60]
+@snap[south text-08 ]
 @ul
 
 - Domain-Driven Design Distilled by Vaughn Vernon
