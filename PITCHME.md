@@ -278,6 +278,13 @@ public interface Processor<K, V> {
 
 ---
 @snap[north span-100 headline]
+### Does it work?
+@snapend
+
+Show me the code!
+
+---
+@snap[north span-100 headline]
 ### Schedule topology
 @snapend
 
@@ -285,55 +292,60 @@ public interface Processor<K, V> {
 
 ---
 @snap[north span-100 headline]
-### Does it work?
+### Summary
 @snapend
 
-Show me the code!
+#### Pros
+
+@ol
+
+- No additional technology to support time-based events
+- Out of the box scalability based on Kafka partitioning  
+- Fault tolerance thanks to StateStores and Topic replication
+- Encapsulation of processing per aggregate
+
+@olend
+
+---
+### Summary
+@snapend
+
+#### Cons
+
+@ol
+
+- Is it really suitable solution for scheduling?
+- Increased memory usage due to RocksDB - aka State Stores
+- At least one delivery - need for either deduplication or idempotency
+- Based on low-level processor API
+
+@olend
 
 ---
 @snap[north span-100 headline]
-### Does it work?
+### 2. Use case - Reschedule
 @snapend
 
-Show me the code!
+Whenever **Employee** changes department, **Discount** should become effective on moving date + 6 months.
 
 ---
-@title[Customize Slide Layout]
-
-@snap[west span-50]
-## Customize Slide Content Layout
-@snapend
-
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
-
----?color=#E58537
-@title[Add A Little Imagination]
-
-@snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
-@snapend
-
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
-@ulend
-@snapend
-
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
-
----?image=assets/img/presenter.jpg
-
 @snap[north span-100 headline]
-## Now It's Your Turn
+### 3. Use case - Cancel
 @snapend
 
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+Whenever **Employee* leaves, **Discount** should never become effective.
+
+---
+@snap[north span-100 headline]
+### What?!
 @snapend
+
+## ?
+---
+@snap[north span-100 headline]
+### More questions?
+@snapend
+
+## ?????
+
+---
