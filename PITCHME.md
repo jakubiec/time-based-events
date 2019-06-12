@@ -63,19 +63,19 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 @snap[span-40 text-08]
 @box[bg-teal](Step 1. Theoretical background)
-@spanend
+@snapend
 
 @snap[span-40 text-08]
 @box[bg-teal](Step 2. Use case)
-@spanend
+@snapend
 
 @snap[span-40 text-08]
 @box[bg-teal](Step 3. Solution)
-@spanend
+@snapend
 
 @snap[span-40 text-08]
 @box[bg-teal](Step 4. Summary)
-@spanend
+@snapend
 
 
 ---
