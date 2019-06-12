@@ -45,3 +45,5 @@ published : false
 #title : "Time-based events"
 #description : "A short tutorial introducing the power and simplicity of GitPitch, the markdown presentation service on Git."
 #thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+
+code-line-numbers : true

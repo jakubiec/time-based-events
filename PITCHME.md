@@ -30,8 +30,6 @@ How to schedule an event?
 
 Aren't events about the past?
 
-![](assets/diagrams/time_based_events.png)
-
 ---
 @snap[north-west bio-name] 
 ### Konrad Jakubiec
@@ -99,10 +97,9 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ### Time-based events
 @snapend
 
-![](assets/diagrams/time_based_events.png)
+### A niche
 
 ---
-@snap[north span-100 headline]
 ### A niche
 @snapend
 
@@ -128,16 +125,30 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 ![](assets/diagrams/retroactive_event.png)
 
-
 ---
-### Concern?
+@snap[north span-100 headline]
+### 1. Concern - mindset
 @snapend
 
 How to schedule an event?
 
 Aren't events about the past?
 
+![](assets/diagrams/discount_became_effective.png)
+---
+@snap[north span-100 headline]
+### Time-based events
+@snapend
+
 ![](assets/diagrams/time_based_events.png)
+
+---
+### 2. Concern - architecture
+@snapend
+
+
+![](assets/diagrams/colleague_benefits_kafka.png)
+
 ---
 @snap[north span-100 headline]
 ### Kafka Streams Topology
@@ -160,47 +171,68 @@ KTable<EmployeeId, Employee> employee = new KStreamBuilder()
 
 ---
 @snap[north span-100 headline]
-### Concern?
+### 3. Concern - how to schedule?
 @snapend
 
-How to schedule an event?
-
-Isn't events about the past?
-
-![](assets/img/kafka-topology.jpg)
+![](assets/diagrams/discount_became_effective.png)
 
 ---
 @snap[north span-100 headline]
 ### PAPI
 @snapend
 
+Kafka Streams Processor API
+
+
 ```
-class EffectiveEventsForwarder(private val scheduleDuration: Duration) : AbstractProcessor<String, ScheduleCommand>() {
+/**
+ * A processor of key-value pair records.
+ *
+ * @param <K> the type of keys
+ * @param <V> the type of values
+ */
+@InterfaceStability.Evolving
+public interface Processor<K, V> {
 
-    private val logger = KotlinLogging.logger {}
-    private lateinit var stores: Stores
+    /**
+     * Initialize this processor with the given context. The framework ensures this is called once per processor when the topology
+     * that contains it is initialized. When the framework is done with the processor, {@link #close()} will be called on it; the
+     * framework may later re-use the processor by calling {@code #init()} again.
+     * <p>
+     * The provided {@link ProcessorContext context} can be used to access topology and record meta data, to
+     * {@link ProcessorContext#schedule(Duration, PunctuationType, Punctuator) schedule} a method to be
+     * {@link Punctuator#punctuate(long) called periodically} and to access attached {@link StateStore}s.
+     * 
+     * @param context the context; may not be null
+     */
+    void init(ProcessorContext context);
 
+    /**
+     * Process the record with the given key and value.
+     *
+     * @param key the key for the record
+     * @param value the value for the record
+     */
+    void process(K key, V value);
 
-    override fun init(context: ProcessorContext) {
-        super.init(context)
-        stores = Stores(context)
-        context.schedule(scheduleDuration, PunctuationType.WALL_CLOCK_TIME) { forwardEffectiveEvents() }
-    }
-
-    override fun process(key: String, command: ScheduleCommand) {}
-
-    private fun forwardEffectiveEvents() =
-        stores.onEffectiveEvents { iterator ->
-            iterator.forEach { keyValue ->
-                context().forward(keyValue.value.id, keyValue.value)
-                logger.info { "Forwarded event ${keyValue.value}" }
-            }
-        }
-
-    companion object {
-        const val NAME = "EffectiveEventsForwarder"
-    }
+    /**
+     * Close this processor and clean up any resources. Be aware that {@code #close()} is called after an internal cleanup.
+     * Thus, it is not possible to write anything to Kafka as underlying clients are already closed. The framework may
+     * later re-use this processor by calling {@code #init()} on it again.
+     * <p>
+     * Note: Do not close any streams managed resources, like {@link StateStore}s here, as they are managed by the library.
+     */
+    void close();
 }
+```
+
+---
+@snap[north span-100 headline]
+### Schedule!
+@snapend
+
+```
+  context.schedule(scheduleDuration, PunctuationType.WALL_CLOCK_TIME) { ... }
 ```
 
 ---
