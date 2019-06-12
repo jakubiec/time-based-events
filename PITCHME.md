@@ -334,7 +334,7 @@ Whenever **Employee** changes department, **Discount** should become effective o
 ### 3. Use case - Cancel
 @snapend
 
-Whenever **Employee* leaves, **Discount** should never become effective.
+Whenever **Employee** leaves, **Discount** should never become effective.
 
 ---
 @snap[north span-100 headline]
@@ -344,9 +344,9 @@ Whenever **Employee* leaves, **Discount** should never become effective.
 ## ?
 ---
 @snap[north span-100 headline]
-### More questions?
+### Thank you!
 @snapend
 
-## ?????
+## Questions ????
 
 ---
