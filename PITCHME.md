@@ -346,3 +346,23 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 @snapend
 
 ## Questions ????
+---
+@snap[north span-100 headline]
+### References
+@snapend
+
+@ul
+
+- Domain-Driven Design Distilled by Vaughn Vernon
+- https://cwiki.apache.org/confluence/display/KAFKA/KIP-67%3A+Queryable+state+for+Kafka+Streams
+- https://martinfowler.com/eaaDev/RetroactiveEvent.html
+- https://www.infoq.com/news/2018/02/retroactive-future-event-sourced/
+- https://www.slideshare.net/ConfluentInc/beyond-the-dsl-unlocking-the-power-of-kafka-streams-with-the-processor-api
+- https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Streams+Internal+Data+Management
+- https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7
+- https://zz85.github.io/kafka-streams-viz/
+
+
+@ulend
+
+## Questions ????
