@@ -278,8 +278,9 @@ public interface Processor<K, V> {
 ### Schedule topology
 @snapend
 
+@snap[south span-90]
 ![](assets/img/schedule-topology.png)
-
+@snapend
 ---
 @snap[north span-100 headline]
 ### Does it work?
