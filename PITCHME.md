@@ -26,7 +26,7 @@ Aren't events about the past?
 
 ---
 @snap[north span-100 headline]
-### 1. Use case - Schedule
+### Concern?
 @snapend
 
 ![](assets/diagrams/colleague_benefits_kafka.png)
