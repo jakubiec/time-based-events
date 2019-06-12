@@ -180,7 +180,7 @@ What about aggregates?
 ### Kafka Streams Topology
 @snapend
 
-@snap[midpoint span-70]
+@snap[midpoint span-55]
 ![](assets/img/kafka-topology.jpg)
 @snapend
 
