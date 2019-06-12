@@ -1,0 +1,25 @@
+@startuml
+!include <tupadr3/common>
+!include <tupadr3/font-awesome-5/clock>
+!include <tupadr3/font-awesome-5/calendar_alt>
+
+skinparam defaultFontName Purisa
+skinparam handwritten true
+skinparam backgroundcolor transparent
+
+skinparam defaultTextAlignment center
+
+
+scale 1200*480
+
+file EligibilityExpired [
+    <size:80><&clock></size>
+    EligibilityExpired
+]
+
+file FinancialYearFinished [
+    <size:80><&calendar></size>
+    FinancialYearFinished
+]
+
+@enduml
