@@ -78,9 +78,16 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 @fa[quote-left](...expiring time frame will generally have a descriptive name that will become part of the Ubiquitous Language...)
 
++++
+@snap[north span-100 headline]
+### A niche
+@snapend
 @fa[quote-left](Therefore, you have a name for that particular time-based Domain Event.)
 
 +++
+@snap[north span-100 headline]
+### A niche
+@snapend
 @fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
 
 
