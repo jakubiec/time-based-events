@@ -63,21 +63,14 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ### Agenda
 @snapend
 
-@snap[north span-20]
-@box[bg-teal](Step 1. Background)
-@snapend
+@ol
 
-@snap[midpoint span-20]
-@box[bg-teal](Step 2. Use case)
-@snapend
+- Theoretical background
+- Use Case
+- Solution 
+- Summary
 
-@snap[south span-20]
-@box[bg-teal](Step 3. Solution)
-@snapend
-
-@snap[south span-20]
-@box[bg-gold](Step 4. Summary)
-@snapend
+@olend
 
 
 ---
