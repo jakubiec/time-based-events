@@ -59,7 +59,7 @@ Spending free time on self-growth, discovering new music and playing on drums.
 
 
 ---
-@snap[north]
+@snap[north span-100 headline]
 ### Agenda
 @snapend
 
@@ -71,7 +71,15 @@ Spending free time on self-growth, discovering new music and playing on drums.
 - Summary
 
 @olend
+---
+@snap[north span-100 headline]
+### Theoretical background
+@snapend
 
+@fa[](A query language for your API)
+
+@snap[south-east span-50] @quote[GitPitch Desktop with speaker notes is AMAZING!](Dave T.)
+@snapend
 
 ---
 @title[Customize Slide Layout]
