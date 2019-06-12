@@ -141,13 +141,18 @@ Spending free time on self-growth, discovering new music and playing on drums.
 ![](assets/diagrams/time_based_events_context.png)
 
 ---
-@snap[north span-100 headline]
 ### Concern - mindset
 @snapend
 
-Aren't events about the past? What about aggregates?
+@snap[midpoint span-70]
+Aren't events about the past?   
 
+What about aggregates?
+@snapend
+
+@snap[south span-30]
 ![](assets/diagrams/discount_became_effective.png)
+@snapend
 ---
 @snap[north span-100 headline]
 ### Time-based events - Aggregate
