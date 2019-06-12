@@ -63,10 +63,6 @@ Spending free time on self-growth, discovering new music and playing on drums.
 <kjakubiec@virtuslab.com>
 @snapend
 
-@snap[south template-note] 
-[Codebase](https://github.com/jakubiec/time-based-events)
-@snapend
-
 ---
 @snap[north span-100 headline]
 ### Agenda
@@ -354,14 +350,16 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 @snap[south text-08 ]
 @ul
 
+- [Codebase](https://github.com/jakubiec/time-based-events)
+- [Kafka Querable State Stores](https://cwiki.apache.org/confluence/display/KAFKA/KIP-67%3A+Queryable+state+for+Kafka+Streams)
+- [Retroactive event](https://martinfowler.com/eaaDev/RetroactiveEvent.html)
+- [Retroactive event sourcing](https://www.infoq.com/news/2018/02/retroactive-future-event-sourced/)
+- [Beyond the Kafka DSL](https://www.slideshare.net/ConfluentInc/beyond-the-dsl-unlocking-the-power-of-kafka-streams-with-the-processor-api)
+- [Kafka Internal Data Management](https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Streams+Internal+Data+Management)
+- [Reactive event sourcing](https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7)
+- [Kafka topology viz](https://zz85.github.io/kafka-streams-viz/)
+- [Kafka Processor API](https://kafka.apache.org/documentation/streams/developer-guide/processor-api.html)
 - Domain-Driven Design Distilled by Vaughn Vernon
-- https://cwiki.apache.org/confluence/display/KAFKA/KIP-67%3A+Queryable+state+for+Kafka+Streams
-- https://martinfowler.com/eaaDev/RetroactiveEvent.html
-- https://www.infoq.com/news/2018/02/retroactive-future-event-sourced/
-- https://www.slideshare.net/ConfluentInc/beyond-the-dsl-unlocking-the-power-of-kafka-streams-with-the-processor-api
-- https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Streams+Internal+Data+Management
-- https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7
-- https://zz85.github.io/kafka-streams-viz/
 
 @ulend
 @snapend
