@@ -163,7 +163,7 @@ What about aggregates?
 @snap[north span-100 headline]
 ### A niche
 @snapend
-@@quote[Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.](K.Webber)
+@quote[Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.](K.Webber)
 
 ---
 @snap[north span-100 headline]
@@ -178,7 +178,7 @@ What about aggregates?
 ### Kafka Streams Topology
 @snapend
 
-@snap[midpoint span-55]
+@snap[midpoint span-60]
 ![](assets/img/kafka-topology.jpg)
 @snapend
 
@@ -279,7 +279,7 @@ public interface Processor<K, V> {
 ### Schedule topology
 @snapend
 
-@snap[south span-80]
+@snap[south span-60]
 ![](assets/img/schedule-topology.png)
 @snapend
 ---
