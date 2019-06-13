@@ -43,7 +43,7 @@ Spending free time on self-growth, discovering new music and playing on drums.
 @olend
 
 ---
-snap[north span-100 headline]
+@snap[north span-100 headline]
 ### Context
 @snapend
 
@@ -118,13 +118,13 @@ Aren't events about the past?
 ### A niche
 @snapend
 
-@fa[quote-left](...expiring time frame will generally have a descriptive name that will become part of the Ubiquitous Language...)
+@quote[...expiring time frame will generally have a descriptive name that will become part of the Ubiquitous Language...](V.Vernon)
 
 +++
 @snap[north span-100 headline]
 ### A niche
 @snapend
-@fa[quote-left](Therefore, you have a name for that particular time-based Domain Event.)
+@quote[Therefore, you have a name for that particular time-based Domain Event.](V,Vernon)
 
 ---
 @snap[north span-100 headline]
@@ -163,7 +163,7 @@ What about aggregates?
 @snap[north span-100 headline]
 ### A niche
 @snapend
-@fa[quote-left](Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.)
+@@quote[Schedulers and Timers are also very interesting types of events, but they are a often times an implementation-level consideration.](K.Webber)
 
 ---
 @snap[north span-100 headline]
