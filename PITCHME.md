@@ -275,13 +275,12 @@ public interface Processor<K, V> {
 @olend
 
 ---
-@snap[north span-80]
-### Schedule topology
-@snapend
 
-@snap[south span-60]
+### Schedule topology
+
+
 ![](assets/img/schedule-topology.png)
-@snapend
+
 ---
 @snap[north span-100 headline]
 ### Does it work?
@@ -362,7 +361,7 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 - [Kafka Internal Data Management](https://cwiki.apache.org/confluence/display/KAFKA/Kafka+Streams+Internal+Data+Management)
 - [Reactive event sourcing](https://blog.redelastic.com/corporate-arts-crafts-modelling-reactive-systems-with-event-storming-73c6236f5dd7)
 - [Kafka topology viz](https://zz85.github.io/kafka-streams-viz/)
-- __[Kafka Processor API](https://kafka.apache.org/documentation/streams/developer-guide/processor-api.html)__
+- [Kafka Processor API](https://kafka.apache.org/documentation/streams/developer-guide/processor-api.html)
 - Domain-Driven Design Distilled by Vaughn Vernon
 
 @ulend
