@@ -342,12 +342,6 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 ## ?
 ---
 @snap[north span-100 headline]
-### Thank you!
-@snapend
-
-## Questions ????
----
-@snap[north span-100 headline]
 ### References!
 @snapend
 @snap[south text-08 ]
@@ -365,4 +359,14 @@ Whenever **Employee** leaves, **Discount** should never become effective.
 - Domain-Driven Design Distilled by Vaughn Vernon
 
 @ulend
+@snapend
+---
+@snap[north span-100 headline]
+### Thank you!
+@snapend
+
+## Questions ????
+
+@snap[south-west template-note text-gray] 
+<kjakubiec@virtuslab.com>
 @snapend
