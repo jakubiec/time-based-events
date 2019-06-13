@@ -174,11 +174,11 @@ What about aggregates?
 ![](assets/diagrams/colleague_benefits_kafka.png)
 
 ---
-@snap[north span-100 headline]
+@snap[north span-80 headline]
 ### Kafka Streams Topology
 @snapend
 
-@snap[midpoint span-60]
+@snap[midpoint span-70]
 ![](assets/img/kafka-topology.jpg)
 @snapend
 
@@ -275,7 +275,7 @@ public interface Processor<K, V> {
 @olend
 
 ---
-@snap[north span-100 headline]
+@snap[north span-80 headline]
 ### Schedule topology
 @snapend
 
