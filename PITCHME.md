@@ -178,7 +178,7 @@ What about aggregates?
 ### Kafka Streams Topology
 @snapend
 
-@snap[midpoint span-70]
+@snap[south span-70]
 ![](assets/img/kafka-topology.jpg)
 @snapend
 
@@ -275,7 +275,7 @@ public interface Processor<K, V> {
 @olend
 
 ---
-@snap[north span-80 headline]
+@snap[north span-80]
 ### Schedule topology
 @snapend
 
