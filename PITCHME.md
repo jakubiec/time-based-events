@@ -41,8 +41,8 @@ Spending free time on self-growth, discovering new music and playing on drums.
 - Use Case
 - Solution 
 - Summary
-
 @olend
+---
 nap[north span-100 headline]
 ### Context
 @snapend
