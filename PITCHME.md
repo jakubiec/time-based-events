@@ -3,7 +3,47 @@
 ## On Kafka
 
 ---
+@s
+@snap[north-west bio-name] 
+### Konrad Jakubiec
+@snapend
+
+@snap[west text-08 span-80] 
+
+
+Open-minded Software Engineer **@VirtusLab**.<br/>
+
+
+Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.<br/>
+
+
+Spending free time on self-growth, discovering new music and playing on drums.
+
+@snapend
+
+@snap[north-east span-20]
+![](assets/img/me.jpg)
+@snapend
+
+@snap[south-west template-note text-gray] 
+<kjakubiec@virtuslab.com>
+@snapend
+
+---
 @snap[north span-100 headline]
+### Agenda
+@snapend
+
+@ol
+
+- Context
+- Theoretical background
+- Use Case
+- Solution 
+- Summary
+
+@olend
+nap[north span-100 headline]
 ### Context
 @snapend
 
@@ -37,45 +77,6 @@ Aren't events about the past?
 @snapend
 
 ![](assets/diagrams/colleague_benefits_kafka.png)
----
-@snap[north-west bio-name] 
-### Konrad Jakubiec
-@snapend
-
-@snap[west text-08 span-80] 
-
-
-Open-minded Software Engineer **@VirtusLab**.<br/>
-
-
-Passionate about Domain-driven Design, Reactive Microservices and Event-driven architecture.<br/>
-
-
-Spending free time on self-growth, discovering new music and playing on drums.
-
-@snapend
-
-@snap[north-east span-20]
-![](assets/img/me.jpg)
-@snapend
-
-@snap[south-west template-note text-gray] 
-<kjakubiec@virtuslab.com>
-@snapend
-
----
-@snap[north span-100 headline]
-### Agenda
-@snapend
-
-@ol
-
-- Theoretical background
-- Use Case
-- Solution 
-- Summary
-
-@olend
 ---
 @snap[north span-100 headline]
 ### Domain events
