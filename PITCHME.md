@@ -3,7 +3,6 @@
 ## On Kafka
 
 ---
-@s
 @snap[north-west bio-name] 
 ### Konrad Jakubiec
 @snapend
@@ -42,8 +41,9 @@ Spending free time on self-growth, discovering new music and playing on drums.
 - Solution 
 - Summary
 @olend
+
 ---
-nap[north span-100 headline]
+snap[north span-100 headline]
 ### Context
 @snapend
 
