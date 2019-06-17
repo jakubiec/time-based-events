@@ -18,6 +18,7 @@ class Cleaner : AbstractProcessor<String, TimeBasedEvent>() {
 
     private fun clean(event: TimeBasedEvent): Unit = stores.run {
         timeBasedEvents.delete(event.effectiveDateKey())
+        //key=employeeId:eventType -> value=2019-
         effectiveDates.delete(event.eventKey())
         logger.info { "Cleaned stores for effective event $event" }
     }

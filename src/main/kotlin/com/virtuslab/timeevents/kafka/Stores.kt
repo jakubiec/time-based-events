@@ -47,5 +47,9 @@ class Stores(context: ProcessorContext) {
 
 
     fun onEffectiveEvents(iterateOver: (KeyValueIterator<String, TimeBasedEvent>) -> Unit) =
+        //key=date:employeeId:eventType -> value="eventContent"
+        //i.e.2019-01-01:123456:DiscountBecameEffective
+        //query is based on comparability of String in KeyStore
+        //starting from 0 as the lowest possible value and date of tomorrow as the greatest
         timeBasedEvents.range("0", Time.tomorrow().isoString()).use { iterateOver(it) }
 }
