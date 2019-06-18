@@ -26,3 +26,8 @@
   color: white;
   font-weight: bold;
 }
+
+.gp-logo img {
+     max-height: 10em;
+     max-width: 8em;
+ }
